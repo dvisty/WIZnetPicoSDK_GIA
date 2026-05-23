@@ -1,0 +1,2 @@
+add_subdirectory(client_sgp41)
+add_subdirectory(client_sgp30)
