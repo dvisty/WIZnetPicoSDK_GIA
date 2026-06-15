@@ -13,7 +13,7 @@ The examples periodically read measurements from Sensirion gas sensors and send 
 | Sensor | Measured Values |
 | ------ | ------------------------------------- |
 | SGP30 | TVOC, eCO₂ |
-| SGP41 | Volatile Organic Compound Index (VOC), NOx Index, VOC Raw, NOx Raw |
+| SGP41 | VOC Index, NOx Index, VOC Raw, NOx Raw |
 
 ## Features
 
