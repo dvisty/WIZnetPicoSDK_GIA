@@ -1,6 +1,6 @@
 # WIZnetPicoSDK_GIA
 
-TCP-based air quality monitoring examples for **W6100-EVB-Pico** using **Sensirion SGP30** gas sensors and similar devices.
+TCP-based air quality monitoring examples for **W6100-EVB-Pico** using **Sensirion SGP41** gas sensors and **Sensirion SGP30**.
 
 ## Overview
 
