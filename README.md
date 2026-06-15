@@ -80,7 +80,19 @@ SGP41 Client:
 
 3. Calculates VOC Index and NOx Index.
 
-4. Sends results to TCP server every second.
+4. Sends measurement packets to TCP server.
+
+Data packet:
+
+```c
+typedef struct {
+uint32_t timestamp;
+uint16_t voc_raw;
+uint16_t nox_raw;
+uint16_t voc_index;
+uint16_t nox_index;
+} sensor_data_t;
+```
 
 The application uses both RP2040 cores:
 
@@ -128,17 +140,17 @@ Modify network parameters directly in source files as needed.
 ### SGP30
 
 ```text
-TVOC=15 ppb
+TVOC=60 ppb
 eCO2=430 ppm
 ```
 
 ### SGP41
 
 ```text
-VOC Raw = 25432
-NOx Raw = 21344
-VOC Index = 102
-NOx Index = 15
+VOC Raw = 32189
+NOx Raw = 14272
+VOC Index = 96
+NOx Index = 1
 ```
 
 ## Applications
